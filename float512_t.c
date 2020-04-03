@@ -18,21 +18,21 @@ float512_t float32_to_float512(float f)
 	return result;
 }
 
-bool float512_equal(const pfloat512_t lhs, const pfloat512_t rhs)
+bool float512_equal(const float512_t lhs, const float512_t rhs)
 {
 	// TODO: Put something!
 	
 	return true;
 }
 
-bool float512_is_nan(const pfloat512_t f)
+bool float512_is_nan(const float512_t f)
 {
 	// TODO: Put something!
 	
 	return true;
 }
 
-bool float512_is_inf(const pfloat512_t f)
+bool float512_is_inf(const float512_t f)
 {
 	// TODO: Put something!
 

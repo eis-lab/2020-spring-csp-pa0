@@ -13,19 +13,14 @@ int512_t int_to_int512(int i)
 	return result;
 }
 
-void int512_to_str(char** buf, const pint512_t i)
-{
-	// TODO: Put something!
-}
-
-bool int512_equal(const pint512_t lhs, const pint512_t rhs)
+bool int512_equal(const int512_t lhs, const int512_t rhs)
 {
 	// TODO: Put something!
 	
 	return true;
 }
 
-bool int512_greater(const pint512_t lhs, const pint512_t rhs)
+bool int512_greater(const int512_t lhs, const int512_t rhs)
 {
 	// TODO: Put something!
 	

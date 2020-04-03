@@ -11,10 +11,9 @@ typedef struct _int512 {
 } int512_t, *pint512_t;
 
 int512_t int_to_int512(int i);
-void int512_to_str(char** buf, const pint512_t i);
 
-bool int512_equal(const pint512_t lhs, const pint512_t rhs);
-bool int512_greater(const pint512_t lhs, const pint512_t rhs);
+bool int512_equal(const int512_t lhs, const int512_t rhs);
+bool int512_greater(const int512_t lhs, const int512_t rhs);
 
 int512_t int512_add(int512_t lhs, int512_t rhs);
 int512_t int512_mul(int512_t lhs, int512_t rhs);
